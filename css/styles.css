@@ -701,21 +701,83 @@ body {
   margin-left: 20%;
 }
 
+about-data p{
+  text-align: justify;
+}
+
 #side-nav-bar ul li a{
   text-decoration: none;
   font: 12pt PT Sans, sans-serif;
+  color: white;
+}
+
+#side-nav-bar a:hover{
+  color: gray;
 }
 
 #side-nav-bar ul li{
   list-style: none;
 }
 
+#side-nav-bar{
+  height: auto;
+  width: 300px;
+  padding: 30px;
+  background: rebeccapurple;  
+  color: white;
+  border-radius: 10px;
+}
+
 #vision-mission-data h3{
+  font: 20pt PT Sans, sans-serif; 
   font-weight: bold;
 }
 
 #vision-mission-data{
     padding-right: 65px;
     text-align: justify;
+}
 
+table{
+  font: 11pt PT Sans, sans-serif;
+  text-align: left;
+}
+
+#table-data p{
+  font: 11pt PT Sans, sans-serif; 
+}
+
+#governing-council h3{
+  font: 20pt PT Sans, sans-serif; 
+  font-weight: bold;
+}
+
+#about-data span{
+  font: 15pt PT Sans, sans-serif; 
+  font-weight: bold;
+}
+
+#about-college-list{
+  height: auto;
+  width: auto;
+  padding: 20px;
+  background: rgb(0,0,0,0.9);
+}
+
+#chairman p{
+  text-align: justify;
+  font: 11pt PT Sans, sans-serif; 
+
+}
+
+#chairman img{
+  margin-left: 90px;
+  margin-top: 25px;
+}
+
+#chairman h3{
+  font: 14pt PT Sans, sans-serif; 
+  float: left;
+  text-align: justify;
+  font-weight: bold;
 }
