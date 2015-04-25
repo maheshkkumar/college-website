@@ -380,8 +380,6 @@ body{
 }
 
 #college-name{
-  font-size: 40px;
-  font-family: 'Droid Sans', sans-serif;
   -webkit-padding-left: 180px;
   -moz-padding-left: 180px;
   padding-left: 180px;
@@ -389,8 +387,8 @@ body{
   -moz-padding-right: 180px;
   padding-right: 180px;
   color: #FFCC20;
-  font-weight: 900;
-  height: 50px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bolder;
 }
 
 #header-wrapper{
@@ -460,10 +458,10 @@ a{
 }
 
 .section h3{
-  font-weight: normal;
-  font: 13pt PT Sans, sans-serif;
+  font: 14pt PT Sans, sans-serif;
+  font-weight: bolder;
   text-transform: uppercase;
-  color: #FFCC20;;
+  color: #FFCC20;
 }
 
 .section a{
@@ -534,6 +532,7 @@ a{
 #accredit h3{
   font: 16pt PT Sans, sans-serif;  /* contact form font style*/
   color: #FFCC20; 
+  font-weight: bold;
 }
 
 #college-affiliation{
@@ -556,6 +555,7 @@ td h4{
   font: 12pt PT Sans, sans-serif;
   text-align: center;
   color: #FFCC20;
+  font-weight: bold;
 }
 td{
   line-height: 1%;
@@ -708,7 +708,7 @@ about-data p{
 #side-nav-bar ul li a{
   text-decoration: none;
   font: 12pt PT Sans, sans-serif;
-  color: white;
+  color: #00254C;
 }
 
 #side-nav-bar a:hover{
@@ -723,8 +723,7 @@ about-data p{
   height: auto;
   width: 300px;
   padding: 30px;
-  background: rebeccapurple;  
-  color: white;
+  background: #C3C3E5;  
   border-radius: 10px;
 }
 
@@ -771,7 +770,7 @@ table{
 }
 
 #chairman img{
-  margin-left: 90px;
+  margin-left: 70px;
   margin-top: 25px;
 }
 
@@ -780,4 +779,33 @@ table{
   float: left;
   text-align: justify;
   font-weight: bold;
+}
+
+#container-data h3{
+  text-align: center;
+  font: 15pt PT Sans, sans-serif; 
+  color: rebeccapurple;
+  font-weight: bold;
+}
+
+#container-data p{
+  text-align: justify;
+  padding: 10px;
+}
+#container-data{
+  background-color: rgba(0,0,0,0.15);
+  height: 295px;
+  border-radius: 15px;
+  text-align: justify;
+  padding-bottom: 5px;
+}
+
+#container-data a{
+  float: right;
+  margin-right: 10px;
+}
+
+.container-data p{
+  text-align: justify;
+  padding: 0px;
 }
