@@ -380,9 +380,9 @@ body{
 }
 
 #college-name{
-  -webkit-padding-left: 180px;
-  -moz-padding-left: 180px;
-  padding-left: 180px;
+  -webkit-padding-left: 210px;
+  -moz-padding-left: 210px;
+  padding-left: 210px;
   -webkit-padding-right: 180px;
   -moz-padding-right: 180px;
   padding-right: 180px;
@@ -808,4 +808,8 @@ table{
 .container-data p{
   text-align: justify;
   padding: 0px;
+}
+
+.college-name-header{
+  padding-left: 75px;
 }
