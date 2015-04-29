@@ -712,7 +712,7 @@ about-data p{
 }
 
 #side-nav-bar a:hover{
-  color: gray;
+  color: white;
 }
 
 #side-nav-bar ul li{
@@ -726,6 +726,37 @@ about-data p{
   background: #C3C3E5;  
   border-radius: 10px;
 }
+
+/* depts side bar */
+
+#dept-side-nav-bar ul li a{
+  text-decoration: none;
+  font: 11pt PT Sans, sans-serif;
+  color: #00254C;
+}
+
+#dept-side-nav-bar a:hover{
+  color: white;
+}
+
+#dept-side-nav-bar ul li{
+  list-style: none;
+}
+
+#dept-side-nav-bar marquee{
+  font: 11pt PT Sans, sans-serif;
+  color: #c71585;  
+}
+
+#dept-side-nav-bar{
+  height: auto;
+  width: 200px;
+  padding: 30px;
+  background: #C3C3E5;  
+  border-radius: 10px;
+}
+ /* end of dept side bar */
+
 
 #vision-mission-data h3{
   font: 20pt PT Sans, sans-serif; 
