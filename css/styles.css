@@ -746,14 +746,29 @@ about-data p{
 #dept-side-nav-bar marquee{
   font: 11pt PT Sans, sans-serif;
   color: #c71585;  
+  padding-left: 3px;
+}
+
+#dept-side-nav-bar ul{
+  margin: 0;
 }
 
 #dept-side-nav-bar{
   height: auto;
   width: 200px;
-  padding: 30px;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: #C3C3E5;  
   border-radius: 10px;
+}
+
+#dept-side-nav-bar p{
+
+  font: 11pt PT Sans, sans-serif;
+  color: #c71585;  
+  font-weight: bold;
+  padding-left: 25px;
 }
  /* end of dept side bar */
 
@@ -768,6 +783,10 @@ about-data p{
     text-align: justify;
 }
 
+vision-mission-data p{
+    text-align: justify;
+    font: 11pt PT Sans, sans-serif;
+}
 table{
   font: 11pt PT Sans, sans-serif;
   text-align: left;
@@ -843,4 +862,26 @@ table{
 
 .college-name-header{
   padding-left: 75px;
+}
+
+.carousel-caption p{
+  text-align: right;
+  float: right;
+}
+
+#ise-data h3{
+  font: 20pt PT Sans, sans-serif; 
+  font-weight: bold;
+}
+
+#ise-data{
+    padding-right: 35px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+#ise-data p{
+    padding: 5px;
+    text-align: justify;
+    font: 11pt PT Sans, sans-serif;
 }

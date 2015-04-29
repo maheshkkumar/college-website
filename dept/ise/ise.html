@@ -20,7 +20,7 @@
          }
       .item{
           text-align: center;
-          height: 450px !important;
+          height: 300px !important;
           width: 100%;
          }
       .carousel{
@@ -31,7 +31,7 @@
          }
       .bs-example img{
          width: 100%;
-         height: 450px !important;
+         height: 300px !important;
       }
    </style>
 
@@ -164,6 +164,82 @@
       </ul>
    </div>
 
+   
+   <!-- Carousel -->
+
+   <div class="bs-example">
+      <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
+      
+         <!-- Carousel indicators -->
+      
+         <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+         </ol>   
+         
+         <!-- Carousel items -->
+         
+         <div class="carousel-inner">
+            <div class="active item">
+            <!--  <h2>TOCE</h2> -->
+               <div class="carousel-caption">
+                  <p>Dept. of Information Science and Engineering</p>
+               </div>
+               <img src="img/car1.jpg">
+            </div>
+            
+            <div class="item">
+               <div class="carousel-caption">
+                  <p>Head of Department</p>
+               </div>
+               <img src="img/car2.jpg">
+            </div>
+
+            <!--
+            <div class="item">
+               <h2>Slide 3</h2>
+               <div class="carousel-caption">
+                  <h3>Third slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+               </div>
+            </div> 
+            -->
+
+            <div class="item">
+               <div class="carousel-caption">
+                  <p>Infrastructure</p>
+               </div>
+               <img src="img/car3.jpg">
+            </div>
+            <div class="item">
+               <div class="carousel-caption">
+                  <p>Research Center</p>
+               </div>
+               <img src="img/car4.jpg">
+            </div>
+            <div class="item">
+               <div class="carousel-caption">
+                  <p>Classroom</p>
+               </div>
+               <img src="img/car5.jpg">
+            </div>
+         </div>
+         
+         <!-- Carousel nav -->
+         
+         <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+         </a>
+         <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+         </a>
+      </div>
+   </div>
+
+
    <!-- about us -->
 
    <div class="container" >
@@ -175,23 +251,21 @@
                   <li><a href="objectives.html">Objectives</a></li>
                   <li><a href="courses.html">Courses</a></li>
                   <li><a href="staff.html">Staff</a></li>
-                  <li><a href="infrastructure.html">Infrastructure</a></li>
-                  <li><a href="time_table.html">Time Table</a></li>
-                  <li><a href="syllabus.html">Syllabus</a></li>
+                  <li><a href="research.html">Research</a></li>
+                  <li><a href="alumni.html">Alumni</a></li>
+                  <li><a href="job_oppurunities.html">Job Oppurtunities</a></li>
                   <li><a href="events.html">Dept. Events</a></li>
                   <li><a href="contact.html">Contact Us</a></li>
                </ul>
                <br>
-               <marquee SCROLLAMOUNT=2 direction="up" loop="true" height="200px" onmouseover="this.stop(11)" onmouseout="this.start(11)">
-               <font>Guest Lectuer on Entreprenuership by Dr. ABC on Thursday, 20th April, 2015
-                  <br>
-                  <a href="#">Click here for more details</a>
-                  <br>
-               </font>
-            </marquee>
+               <p padding-left="20px">Upcoming Events</p>
+               <br>
+               <marquee SCROLLAMOUNT=2 direction="up" loop="true" height="100px" onmouseover="this.stop(11)" onmouseout="this.start(11)">
+                  <p>Guest Lectuer on Entrepreneurship by Mr. ABC on Monday, </p>
+               </marquee>
             </div>
          </div>
-         <div class="col-md-8" id="vision-mission-data">
+         <div class="col-md-10" id="ise-data">
             <h3>Department of Information Science and Engineering</h3>
             <p>
                <br>
@@ -216,9 +290,6 @@
          </div>
          <div>
 
-         </div>
-         <div class="col-md-" id="vision-mission-data">
-            
          </div>
       </div>
    </div>
