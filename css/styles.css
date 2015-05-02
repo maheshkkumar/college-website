@@ -379,20 +379,33 @@ body{
   padding: 10px;
 }
 
-#college-name{
-  -webkit-padding-left: 210px;
-  -moz-padding-left: 210px;
-  padding-left: 210px;
-  -webkit-padding-right: 180px;
-  -moz-padding-right: 180px;
-  padding-right: 180px;
+#name-college{
   color: #FFCC20;
   font-family: 'PT Sans', sans-serif;
   font-weight: bolder;
+  text-align: center;
+}
+
+#name-college h1{
+  color: #FFCC20;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#college-affiliations h4{
+  font: 11pt PT Sans, sans-serif;
+  font-weight: bold;
 }
 
 #header-wrapper{
   background-color: #00254C; /* Header-wrapper background color*/
+  width: 100%;
+}
+
+#college-affiliations{
+  padding-right: 15%;
+  line-height: 0.5px;
 }
 
 @font-face {
@@ -417,8 +430,9 @@ a{
 } 
 
 #footer{
-  margin-bottom: -150px;
-  clear: both;
+  width: 100%;
+  background-color: #00254C;
+  height: auto; 
 }
 
 .tomottoWrap{
@@ -508,7 +522,7 @@ a{
 }
 
 .container{
-  padding: 30px;
+  padding: 1.35%;
 }
 
 .c-info{
@@ -679,19 +693,6 @@ body {
   margin-left: 25px;
 }
 
-.container{
-  width: 100%;
-  background-color: #f2f2f2;
-}
-
-.container div{
-  padding: 10px;
-}
-
-.container h3{
-  text-align: center;
-}
-
 #modal-button{
   float: left;
   margin-left: 15px;
@@ -707,7 +708,7 @@ about-data p{
 
 #side-nav-bar ul li a{
   text-decoration: none;
-  font: 12pt PT Sans, sans-serif;
+  font: 11pt PT Sans, sans-serif;
   color: #00254C;
 }
 
@@ -806,6 +807,10 @@ table{
   font-weight: bold;
 }
 
+#about-data{
+  padding: 30px;
+  text-align: justify;
+}
 #about-college-list{
   height: auto;
   width: auto;
@@ -821,7 +826,7 @@ table{
 
 #chairman img{
   margin-left: 70px;
-  margin-top: 25px;
+  margin-top: 95px;
 }
 
 #chairman h3{
