@@ -13,6 +13,7 @@
 body{
   font-family: myFirstFont;
   width: 100%;
+  background-color:rgba(0,0,0,0.05);
 }
 #cssmenu ul {
   list-style: none;
@@ -30,7 +31,6 @@ body{
   visibility: hidden;
 }
 #cssmenu ul li {
-  margin: 0;
   padding: 0;
   display: block;
   position: relative;
@@ -200,6 +200,7 @@ body{
   font-size: 14px;
   z-index: 2;
   position: relative;
+  margin-left: 6px;
 }
 #cssmenu > ul > li:hover:after,
 #cssmenu > ul > li.active:after {
@@ -433,11 +434,49 @@ a{
   width: 100%;
   background-color: #00254C;
   height: auto; 
+  font: 12pt 'PT Sans';
+  font-color: #00FF00;
+  padding: 20px;
 }
 
+#footer-data ul li, p{
+  list-style: none;
+}
+
+#footer-data ul li a:hover{
+  color: white;
+}
+
+#footer-data ul li a:{
+  color: #337ab7;
+}
+
+#footer-data ul li a:visited{
+  colo: blue;
+}
+
+#footer-data p{
+  color: #337ab7;
+}
+
+
+#footer-data ul li a{
+  text-decoration: none;
+}
+
+#footer-data h3{
+  font: 14pt 'PT Sans';
+  color: #FFCC20;
+  font-weight: bold;
+}
+
+#toce{
+  margin-top: 75px;
+  margin-left: 50px
+}
 .tomottoWrap{
   position: relative;
-  background:  #FFCC20;;
+  background:  #FFCC20;
 }
 
 #tomotto{
@@ -515,6 +554,11 @@ a{
 }
 #accredit{
   text-align: center;
+  padding-top: 10px;
+}
+
+#accredit div{
+  padding: 15px;
 }
 
 #accredit img{
@@ -690,7 +734,7 @@ body {
 
 .col-md-4{
   text-align: justify;
-  margin-left: 25px;
+  margin-left: 3px;
 }
 
 #modal-button{
@@ -718,12 +762,13 @@ about-data p{
 
 #side-nav-bar ul li{
   list-style: none;
+  text-align: left;
 }
 
 #side-nav-bar{
   height: auto;
-  width: 300px;
-  padding: 30px;
+  width: auto;
+  padding: 15px;
   background: #C3C3E5;  
   border-radius: 10px;
 }
@@ -767,7 +812,7 @@ about-data p{
 #dept-side-nav-bar p{
 
   font: 11pt PT Sans, sans-serif;
-  color: #c71585;  
+  color: black;  
   font-weight: bold;
   padding-left: 25px;
 }
@@ -808,7 +853,7 @@ table{
 }
 
 #about-data{
-  padding: 30px;
+  padding: 10px;
   text-align: justify;
 }
 #about-college-list{
@@ -890,3 +935,102 @@ table{
     text-align: justify;
     font: 11pt PT Sans, sans-serif;
 }
+
+#social-media{
+  height: auto;
+  width: 100%;
+  background-color: #FFCC20;
+  text-align: center;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+#social-media a i{
+  color: gray;
+ }
+
+ #facebook i:hover {
+  color: #3B5998;
+ }
+
+ #twitter i:hover {
+  color: #4099FF;
+ }
+ 
+ #youtube i:hover {
+  color: #bb0000;
+ }
+ 
+ #googleplus i:hover {
+  color: #dd4b39;
+ }
+ 
+ #instagram i:hover {
+  color: #517fa4;
+ }
+
+ #social-media span{
+  font: 12pt PT Sans, sans-serif; 
+  color: #00254C;
+ }
+
+#grid-div{
+  text-align: center;
+  margin-left:25px;
+  height: 300px; 
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+#grid-div marquee{
+  padding: 10px;
+  height: 250px;
+}
+
+#grid-div marquee a{
+  text-decoration: none;
+}
+
+#grid-div h4{
+  font: 16pt PT Sans, sans-serif;
+  font-weight: bold;
+  color: #00254C; 
+  margin-top: 25px;   
+}
+
+#grid-div div{
+  margin-top: 10px;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+
+#grid-div div h5{
+    font: 14pt PT Sans, sans-serif;
+    padding: 17px;
+}
+
+#useful-links a{
+  color: #00254C;
+  text-decoration: none;
+}
+
+
+#admimission{
+  background-color: #aad450;
+}
+
+#placements{
+  background-color: #00bf8f;
+}
+
+#college-tour{
+  background-color: #cb2027;
+}
+
+#ise-data{
+
+}
+

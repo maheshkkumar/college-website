@@ -5,6 +5,7 @@
    <meta charset='utf-8'>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" type="text/css" href="css/socialicious.css" media="screen" />
    <link rel="stylesheet" href="css/fonts.css">
    <link rel="stylesheet" href="css/bootstrap.css">
    <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -240,31 +241,44 @@
 
    <div class="container">
       <div class="row">
-         <div class="col-md-4">
-            <div id="container-data">
-               <h3>About Us</h3>
-            <p>
-               The Oxford College of Engineering is one of the most prestigious institutions in Bangalore that provides quality training in professional education in various streams of engineering, post graduate programme in Computer Application (MCA) and in Business Administration (MBA).
-            </p>
-            <a href="college/about.html"><button class="btn btn-primary">Read More</button></a>
-            </div>
+         <div class="col-md-4" id="grid-div" >
+            <h4>Notice Board</h4>
+            <br>
+            <marquee  SCROLLAMOUNT=2 direction="up" loop="true" height="200px" onmouseover="this.stop(11)" onmouseout="this.start(11)">
+                  <p>B.E Admissions<br><a href="#">Admissions Open for B.E for the academic year 2015<br>Click Here&nbsp;<img src="images/new.gif"></a></p>
+                  <br>
+                  <p>P.G Admissions<br><a href="#">Admissions Open for M.Tech, MBA, MCA for the academic year 2015<br>Click Here&nbsp;<img src="images/new.gif"></a></p>
+                  <br>
+                  <p>Vacancy: Faculty positions<br> <a href="#">Vacancy: Faculty positions in Mathematics Department<br>Click Here&nbsp;<img src="images/new.gif"></a></p>
+                  <br>
+                  <p>WikiMedia<br><a href="#">WikiMedia in association with The Oxford College of Engineering organizes Wikithon 2015<br>Click Here&nbsp;<img src="images/new.gif"></a></p>
+            </marquee>
          </div>
-         <div class="col-md-4">
-            <div id="container-data">
-               <h3>Placement</h3>
-               <p>
-                  The Department of Training and Placement facilitates imparting the maximum employment opportunities, to all the deserving candidates of final and pre-final year students of The Oxford College of Engineering.
-               </p>
-               <a href="placement/placement-process.html"><button class="btn btn-primary">Read More</button></a>
-            </div>
+         <div class="col-md-4" id="grid-div">
+            <h4>News and Updates</h4>
+            <br>
+            <marquee SCROLLAMOUNT=2 direction="up" loop="true" height="200px" onmouseover="this.stop(11)" onmouseout="this.start(11)">
+                  <p>Guest Lectuer on Entrepreneurship by Mr. ABC on Monday, 5th May, 2015<br><a href="#">Click Here</a> </p>
+                  <br>
+                  <p>Inauguration of Research Center in Mechanical Department.<br><a href="#">Click Here</a></p>
+                  <br>
+                  <p>Labour's Day, 1st May</p>
+                  <br>
+                  <p>VTU Lab Time Table<br><a href="#">Click Here</a> </p>
+            </marquee>
          </div>
-         
-         <!-- news feed -->
-
-         <div class="col-md-4">
-            <div id="container-data" class=".container-data">
-               <h3>Panaromic View</h3>
-               <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1429894931198!6m8!1m7!1sGbDwFiKEM5UAAAQZai5-4Q!2m2!1d12.893424!2d77.625842!3f195.48!4f15.260000000000005!5f0.7820865974627469" width="100%" height="220px" frameborder="0" style="border:0"></iframe>
+         <div class="col-md-4" id="grid-div">
+            <h4>Useful Links</h4>
+            <div id="useful-links">
+               <div bg-color="#aad450">
+               <a href="#"><h5 id="admimission">Admissions</h5></a>
+            </div>
+            <div>
+               <a href="placement_brochure.pdf" target="_blank"><h5 id="placements">Placement Brochure</h5></a>
+            </div>
+            <div>
+               <a href="https://www.google.co.in/maps/@12.893435,77.625846,3a,75y,196.65h,105.88t/data=!3m5!1e1!3m3!1sPXm1mKPGVKMAAAQZaeuQ-A!2e0!3e2" target="_blank"><h5  id="college-tour">Campus Tour</h5></a>
+            </div>
             </div>
          </div>
       </div>
@@ -342,30 +356,38 @@
    -->
 
    <div id="footer">
-      <div class="row">
-         <div>
-            <img src="images/acc2.png">
-            <img src="images/acc1.png">
-            <img src="images/acc3.png">
+      <div class="row" id="footer-data">
+         <div id="accredit">
+            <h3>Accreditations</h3>
+            <a href="#" target="_blank"><img src="images/acc2.png"></a>
+            <a href="#" target="_blank"><img src="images/acc1.png"></a>
+            <a href="#" target="_blank"><img src="images/acc3.png"></a>
          </div>
+         <hr>
          <div class="col-md-3">
-            <img src="images/logo2.png">
+            <div id="toce-div">
+               <a href="index.html"><img id = "toce" class="img-rounded" src="images/logo2.png" height="80px"></a>
+            </div>
          </div>
          <div class="col-md-3">
             <ul>
+               <h3><span class="glyphicon glyphicon-education" aria-hidden="true"></span> &nbsp;College</h3>
                <li><a href="#">Home</a></li>
                <li><a href="#">Admissions</a></li>
                <li><a href="#">News and Updates</a></li>
                <li><a href="#">Research</a></li>
+               <li><a href="#">Placements</a></li>
                <li><a href="#">Clubs</a></li>
                <li><a href="#">Students Corner</a></li>
                <li><a href="#">Staff</a></li>
             </ul>
          </div>
          <div class="col-md-3">
+            
             <ul>
+               <h3><span class="glyphicon glyphicon-book" aria-hidden="true"></span> &nbsp;Departments</h3>
                <li><a href="#">Computer Science</a></li>
-               <li><a href="#">Information Science</a></li>
+               <li><a href="dept/ise/ise.html">Information Science</a></li>
                <li><a href="#">Civil</a></li>
                <li><a href="#">Electronics & Communication</a></li>
                <li><a href="#">Electronics & Electricals</a></li>
@@ -377,15 +399,39 @@
             </ul>
          </div>
          <div class="col-md-3">
-               <span>
-                  The Oxford College of Engineering
-10th Milestone, Bommanahalli,
-Hosur Road, Bangalore - 560 068 
+            <h3><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> &nbsp; Meet us at</h3>
+            <p>   
+                  The Oxford College of Engineering<br>
+                  10th Milestone, Bommanahalli,<br>
+                  Hosur Road, Bangalore - 560 068
+                  <br>
+                  <br>
+                  <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                   &nbsp; Phone: 080 - 3021 9601 / 602
+                  <br> 
 
-               </span>
+                  <span class="glyphicon glyphicon-print" aria-hidden="true"></span>
+                   &nbsp; Fax: 080 - 25730551
+                  <br>
+
+                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                  &nbsp; engprincipal@theoxford.edu
+                  <br>
+            </p>
          </div>
       </div>
+      <div class="container" id="social-media">
+         <div class="col-md-10">
+            <span>&copy; The Oxford College of Engineering<br>Maintained and Developed by Dept. of ISE</span>
+         </div>
+         <div class="col-md-2">
+            <a id = "facebook" href="#"><i class="icon-2x icon-facebook-sign"></i></a>
+            <a id = "twitter"  href="#"><i class="icon-2x icon-twitter"></i></a>
+            <a id = "youtube" href="#"><i class="icon-2x icon-youtube-sign"></i></a>
+            <a id = "googleplus" href="#"><i class="icon-2x icon-googleplus-sign"></i></a>
+            <a id = "instagram" href="#"><i class="icon-2x icon-instagram-sign"></i></a>
+         </div>         
+      </div>
    </div>
-
 </body>
 <html>

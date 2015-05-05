@@ -5,6 +5,7 @@
    <meta charset='utf-8'>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <link rel="stylesheet" href="../../css/styles.css">
+   <link rel="stylesheet" type="text/css" href="../../css/socialicious.css" media="screen" />
    <link rel="stylesheet" href="../../css/fonts.css">
    <link rel="stylesheet" href="../../css/bootstrap.css">
    <link rel="stylesheet" href="../../css/bootstrap-theme.css">
@@ -20,8 +21,10 @@
          }
       .item{
           text-align: center;
-          height: 300px !important;
+          height: 400px !important;
           width: 100%;
+          clear: both;
+          padding-left: 250px;
          }
       .carousel{
           margin-top: 0px;
@@ -30,26 +33,27 @@
          margin: 0px;
          }
       .bs-example img{
-         width: 100%;
-         height: 300px !important;
+         clear: both;
+         width: 80%;
+         height: 400px !important;
       }
    </style>
 
    <script src="../../js/styles.js" type="text/javascript"></script>
    <script src="../../js/script.js"></script>
    
-   <title>The Oxford College of Engineering</title>
+   <title>Dept. of ISE</title>
 </head>
 
 
 <body>   
 
-   <!-- Header Content -->
+   <!-- Header Content 
    
    <div id="header-wrapper">
       <table>
          <tr>
-            <td><a id="logo1" href="#"><img src="../../images/logo.png" alt="Institute Logo"></a></td>
+            <td><a id="logo1" href="#"><img src="images/logo.png" alt="Institute Logo"></a></td>
             <td id="college-name-header">
                <div class="college-name-header">
                   <h1 id="college-name">THE OXFORD COLLEGE OF ENGINEERING</h1>
@@ -61,108 +65,46 @@
          </tr>
       </table>
    </div>
+   -->
+      <div class="container" id="header-wrapper">
+            <div class="col-md-2">
+            <a id="logo1" href="../../index.html"><img src="../../images/logo.png" alt="Institute Logo"></a>  
+         </div>
+
+         <div class="col-md-10" id="name-college">
+            <div id="college-affiliations">
+               <h1>Department of Information Science and Engineering</h1>
+               <h4>Accredited by  National Board of Accreditation </h4>
+            </div>      
+         </div>
+      </div>
+         
 
    <!-- Header List -->
 
    <div id='cssmenu'>
       <ul>
-         <li><a href='../../index.html'><span>Home</span></a></li>
-         <li class='has-sub'><a href='#'><span>College</span></a>
+         <li><a href="ise.html">ISE Homepage</a></li>
+         <li class="has-sub"><a href="programs.html">Programs</a>
             <ul>
-               <li><a href='../../college/about.html'><span>About Us</span></a></li>
-               <li><a href='../../college/vision-mission.html'><span>Vision and Mission</span></a></li>
-               <li><a href='../../college/governing-council.html'><span>Governing Council</span></a></li>  
-               <li><a href='../../college/chairman.html'><span>Chairman's Message</span></a></li>
-               <li><a href='../../college/executive.html'><span>Executive Director's Message</span></a></li>
-               <li><a href='../../college/principal.html'><span>Principal's Message</span></a></li>
-               <li><a href='../../college/rating.html'><span>College Rating</span></a></li>
+               <li><a href="#">Under Graduate</a></li>
+               <li><a href="#">Post Graduate</a></li>
             </ul>
          </li>
-         <li class='has-sub'><a href='#'><span>Academics</span></a>
+         <li class="has-sub"><a href="#">People</a>
             <ul>
-               <li class="has-sub"><a href='#'><span>Post Graduate Programs</span></a>
-                  <ul>
-                     <li><a href="../mba/mba.html">MBA</a></li>
-                     <li><a href="../mca/mca.html">MCA</a></li>
-                     <li><a href="../mtech/mtech.html">M Tech</a></li>
-                  </ul>
-               </li>
-               <li class="has-sub"><a href='#'><span>Under Graduate Programs</span></a>
-                  <ul>
-                     <li class="has-sub"><a href="#">Engineering</a>
-                        <ul>
-                           <li><a href="../automobile/automobile.html">Automobile</a></li>
-                           <li><a href="../biotech/biotech.html">Bio Technology</a></li>
-                           <li><a href="../ctm/ctm.html">Construction Technology Management</a></li>
-                           <li><a href="../civil/civil.html">Civil</a></li>
-                           <li><a href="../cse/cse.html">Computer Science</a></li>
-                           <li><a href="../ece/ece.html">Electronics and Communication</a></li>
-                           <li><a href="../eee/eee.html">Electricals and Electronics</a></li>
-                           <li><a href="ise.html">Information Science</a></li>
-                           <li><a href="../mechanical/mechanical.html">Mechanical</a></li>                           
-                        </ul>
-                     </li>
-                     <li><a href="#">Architecture</a></li>
-                     <li class="has-sub"><a href="#">Basic Science</a>
-                        <ul>
-                           <li><a href="#">Mathematics</a></li>
-                           <li><a href="#">Physics</a></li>
-                           <li><a href="#">Chemistry</a></li>
-                        </ul>
-                     </li>
-                  </ul>
-               </li>
-               <li><a href='#'><span>NBA Accredited Programs</span></a></li>
-               <li><a href='#'><span>Research and Development</span></a></li>
-               <li><a href='#'><span>Research Centres</span></a></li>
-               <li><a href='#'><span>University Rankings</span></a></li>
+               <li><a href="faculty.html">Faculty</a></li>
+               <li><a href="visiting_faculty.html">Visiting Faculty</a></li>
+               <li><a href="students.html">Students</a></li>
             </ul>
          </li>
-         <li class='has-sub'><a href='#'><span>Admissions</span></a>
-            <ul>
-               <li><a href='#'><span>Eligibility</span></a></li>
-               <li><a href='#'><span>Application Form</span></a></li>
-            </ul>
-         </li>
-         <li class="has-sub"><a href="#"><span>Placements</span></a>
-           <ul>
-               <li><a href="#">Placement Officer</a></li>
-               <li><a href="#">Placement Process</a></li>
-               <li><a href="#">Placement Statistics</a></li>
-               <li><a href="#">Companies Visited   </a></li>
-           </ul>
-         </li>
-         <li><a href="#"><span>Research</span></a></li>
-         <li class='has-sub'><a href="#"><span>Facilities</span></a>
-            <ul>
-
-               <li><a href="#"><span>Library</span></a></li>
-               <li><a href="#"><span>E - Learning</span></a></li>
-               <li><a href="#"><span>Hostels</span></a></li>
-               <li><a href="#"><span>Health Centre</span></a></li>
-               <li><a href="#"><span>Bank ATM</span></a></lis>
-               <li><a href="#"><span>Transport</span></a></li>
-            </ul>
-         </li>
-         <li class='has-sub'><a href="#"><span>Affiliations</span></a>
-            <ul>
-               <li><a href="#"><span>AICTE</span></a></li>
-               <li><a href="#"><span>VTU</span></a></li>
-               <li><a href="#"><span>Linguistic Minorty Status</span></a></li>
-            </ul>
-         </li>
-         <li class='has-sub'><a href="#"><span>Activities</span></a>
-            <ul>
-               <li><a href="#"><span>Conferences</span></a></li>
-               <li><a href="#"><span>Workshops</span></a></li>
-               <li><a href="#"><span>Techo Cultural Fest</span></a></li>
-               <li><a href="#"><span>NSS</span></a></li>
-               <li><a href="#"><span>Club Activities</span></a></li>
-            </ul>
-         </li>
-         <li class='last'><a href="../../contact.html"><span>Contact</span></a></li>
+         <li><a href="research.html">Research</a></li>
+         <li><a href="infrastructure.html">Infrastructure</a></li>
+         <li><a href="almuni.html">Almuni</a></li>
+         <li><a href="dept_events.html">Events</a></li>
+         <li><a href="contact.html">Contact Us</a></li>
       </ul>
-   </div>
+   </div> 
 
    
    <!-- Carousel -->
@@ -239,23 +181,21 @@
       </div>
    </div>
 
-
-   <!-- about us -->
+   <div>
+      <!-- about us -->
 
    <div class="container" >
       <div class="row">
          <div class="col-md-2">
             <div id="dept-side-nav-bar">
                <ul>
-                  <li><a href="ise.html">Dept. Home</a></li>
-                  <li><a href="objectives.html">Objectives</a></li>
-                  <li><a href="courses.html">Courses</a></li>
-                  <li><a href="staff.html">Staff</a></li>
+                  <li><a href="ise.html">ISE Homepage</a></li>
+                  <li><a href="faculty.html">Faculty</a></li>
                   <li><a href="research.html">Research</a></li>
                   <li><a href="alumni.html">Alumni</a></li>
                   <li><a href="job_oppurunities.html">Job Oppurtunities</a></li>
                   <li><a href="events.html">Dept. Events</a></li>
-                  <li><a href="../contact.html">Contact Us</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
                </ul>
                <br>
                <p padding-left="20px">Upcoming Events</p>
@@ -266,7 +206,6 @@
             </div>
          </div>
          <div class="col-md-10" id="ise-data">
-            <h3>Department of Information Science and Engineering</h3>
             <p>
                <br>
                The department of Information science and Engineering was established in the year 2000, with the objective of moulding young boys and girls into professional Information Science Engineers. The department has a four year full time BE program and M.Tech (CNE) program with an annual intake of 120 and 18 respectively. The department has been accredited by NBA and NAAC. These courses are imparted with deep theoretical and practical learning, with the perfect blend of technomanagerial skills.
@@ -284,83 +223,224 @@
                <p>
                   The department aim is to develop the best information science professional who works  creatively  communicate effectively & become technologically competent , also to mould them into goal citizens by inculcating sense of ethical values in them.
                </p>
-               
-
             </p>
-         </div>
-         <div>
-
          </div>
       </div>
    </div>
+   <div class="container" >
+      <div class="row">
+         <div class="col-md-2">
+         </div>
+         <div class="col-md-10" id="ise-data">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+               <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                     <h4 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                           Programme Educational Objective      
+                        </a>
+                     </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                     <div class="panel-body">
+                        <table class="table table-condensed">
+                           <tr class="info">
+                              <td>
+                                 Be capable of understanding, analyzing and applying current & emerging technologies to design and develop solutions to IT/ITES/Software/Telecom related problems and acquire value and employment.
+                              </td>
+                           </tr> 
+                           <tr class="danger">
+                              <td>
+                                 To have sound foundation in mathematical, scientific and Information science engineering fundamentals necessary to formulate, solve and analyze   practical problems and to prepare students for further studies and research.
+                              </td>
+                           </tr>
+                           <tr class="info">
+                              <td>
+                                  Function effectively as individuals and team members in the workplace, growing into highly technical or project management and leadership roles, in various organisations.
+                              </td>
+                           </tr> 
+                           <tr class="danger">
+                              <td>
+                                 Create an awareness of the life-long learning process, to communicate effectively, learn necessary tools  to successfully identify and  adapt to ever changing technologies, by ethical means and code of professional practice.
+                              </td>
+                           </tr> 
+                        </table>
+                     </div>
+                  </div>
+               </div>
 
+               <!-- Program objectives -->
+
+               <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                     <h4 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           Programme  Objective   
+                        </a>
+                     </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                     <div class="panel-body">
+                        <table class="table table-condensed">
+                           <tr class="info">
+                              <td>
+                                 Students  will  demonstrate  good  knowledge  in  mathematics  &  science  subjects  to     absorb and understand the basics of engineering subjects.
+                              </td>
+                           </tr> 
+                           <tr class="danger">
+                              <td>
+                                 Students will demonstrate the ability to design and conduct experiments, interpret and analyze data, and report results through hard ware and software projects in the Labs and in the Industry.
+                              </td>
+                           </tr>
+                           <tr class="info">
+                              <td>
+                                  Students will demonstrate the ability to design IT & ITES related Application software programs to the desired specifications and requirements.
+                              </td>
+                           </tr> 
+                           <tr class="danger">
+                              <td>
+                                 Students  will  demonstrate  the  ability  to  identify,  formulate  and  solve  Information  Science engineering issues using critical thinking and problem solving skills.
+                              </td>
+                           </tr>
+                           <tr class="info">
+                              <td>
+                                 Students will demonstrate an understanding of their professional and ethical responsibilities towards the society.
+                              </td>
+                           </tr> 
+                           <tr class="danger">
+                              <td>
+                                 Students will have ability to communicate effectively with a range of audiences.
+                              </td>
+                           </tr>
+                           <tr class="info">
+                              <td>
+                                 Students will have an ability to understand and analyze the local and global impact of computing on individuals, organizations and society, including ethical, legal, security and policy principles in technology environment.
+                              </td>
+                           </tr> 
+                           <tr class="danger">
+                              <td>
+                                 Students should be capable of self-learning and clearly understand the value of continuous learning to become the real professional.
+                              </td>
+                           </tr>
+                           <tr class="info">
+                              <td>
+                                 Students will be well versed with the use of software development and testing tools used in the industry for Application software development, along with the domain knowledge.
+                              </td>
+                           </tr> 
+                           <tr class="danger">
+                              <td>
+                                 Students will be broadly educated and will have an understanding and demonstrate awareness of contemporary technological issues
+                              </td>
+                           </tr>
+                           <tr class="info">
+                              <td>
+                                 Students will be familiar with modern engineering hardware and software tools and equipment to analyze and find solutions to IT/ITES & Real time problems.
+                              </td>
+                           </tr> 
+                           <tr class="danger">
+                              <td>
+                                 Students, with special emphasis on Information Technology methods, will design experiments and simulation for developing, and managing both deterministic and nondeterministic processes and systems involving people, information, and complex equipments.
+                              </td>
+                           </tr>
+                           <tr class="info">
+                              <td>
+                                 Students will have the ability to filter the irrelevant source data and have the ability to apply data mining techniques and concepts that can be used to perform day-to-day activities and also in Research and Development.
+                              </td>
+                           </tr> 
+                           <tr class="danger">
+                              <td>
+                                 Students will have the competence to use the technique, skills and  modern engineering tools necessary for software practices.
+                              </td>
+                           </tr> 
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
    
+
    <!-- Footer -->
 
    <div id="footer">
-      <div class="lookWrap">
-         <div id="look">
-            <br>
-            <div id="accredit">
-               <h3>Accreditations</h3>
-               <a href="http://www.aicte-india.org/" target="_blank"><img src="../../images/acc2.png" alt="AICTE"></a>
-               <a href="http://www.nbaind.org/views/Home.aspx" target="_blank"><img src="../../images/acc1.png" alt="NBA"></a>
-               <a href="http://www.naac.gov.in/" target="_blank"><img src="../../images/acc3.png" alt="NAAC"></a>
-            </div>     
-            <hr id="horizontal">
-            <div class="section">
-               <br>
-               <br>
-               <img class="img-thumbnail" src="../../images/logo2.png" width="150px;">
+      <div class="row" id="footer-data">
+         <div id="accredit">
+            <h3>Accreditations</h3>
+            <a href="#" target="_blank"><img src="../../images/acc2.png"></a>
+            <a href="#" target="_blank"><img src="../../images/acc1.png"></a>
+            <a href="#" target="_blank"><img src="../../images/acc3.png"></a>
+         </div>
+         <hr>
+         <div class="col-md-3">
+            <div id="toce-div">
+               <a href="index.html"><img id = "toce" class="img-rounded" src="../../images/logo2.png" height="80px"></a>
             </div>
-            <div class="section">
-               <h3>College</h3>
-                  <a href="#">Updates</a>
-                  <a href="#">About</a>
-                  <a href="#">Research</a>
-                  <a href="#">Faculty</a>
-                  <a href="#">Students</a>
-                  <a href="#">Clubs</a>       
-            </div>        
-
-            <div class="section">
-               <h3>Follow Us</h3>
-               <a href="#">Facebook</a>
-               <a href="#">Twitter</a>        
-               <a href="#">Youtube</a>
-               <a href="#">Instagram</a>
-            </div>
-            <div class="section" id="contact-address">
-               <h3><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Meet us at</h3>
-               <p id="contact-info">
-                  <a href="../../contact.html">The Oxford College of Engineering</a>
+         </div>
+         <div class="col-md-3">
+            <ul>
+               <h3><span class="glyphicon glyphicon-education" aria-hidden="true"></span> &nbsp;College</h3>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Admissions</a></li>
+               <li><a href="#">News and Updates</a></li>
+               <li><a href="#">Research</a></li>
+               <li><a href="#">Placements</a></li>
+               <li><a href="#">Clubs</a></li>
+               <li><a href="#">Students Corner</a></li>
+               <li><a href="#">Staff</a></li>
+            </ul>
+         </div>
+         <div class="col-md-3">
+            
+            <ul>
+               <h3><span class="glyphicon glyphicon-book" aria-hidden="true"></span> &nbsp;Departments</h3>
+               <li><a href="#">Computer Science</a></li>
+               <li><a href="dept/ise/ise.html">Information Science</a></li>
+               <li><a href="#">Civil</a></li>
+               <li><a href="#">Electronics & Communication</a></li>
+               <li><a href="#">Electronics & Electricals</a></li>
+               <li><a href="#">Construction Technology</a></li>
+               <li><a href="#">Mechanical</a></li>
+               <li><a href="#">Automobile</a></li>
+               <li><a href="#">Bio Technology</a></li>
+               <li><a href="#">Architecture</a></li>
+            </ul>
+         </div>
+         <div class="col-md-3">
+            <h3><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> &nbsp; Meet us at</h3>
+            <p>   
+                  The Oxford College of Engineering<br>
                   10th Milestone, Bommanahalli,<br>
                   Hosur Road, Bangalore - 560 068
                   <br>
                   <br>
-                  <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> &nbsp; Phone: 080 - 3021 9601 / 602<br>
-                  <span class="glyphicon glyphicon-print" aria-hidden="true"></span> &nbsp; Fax: 080 - 25730551<br>
-                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> &nbsp; engprincipal@theoxford.edu<br>
-               </p>
-            </div> 
+                  <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                   &nbsp; Phone: 080 - 3021 9601 / 602
+                  <br> 
 
-            <div class="section">
-               <div id="calender">
-                  <div id="calenderTop">
-                     <span class="month">February</span>
-                  </div>
-                  <div id="otherPages" class="one"></div>
-                  <div id="otherPages" class="two"></div>
-                  <div id="otherPages" class="three"></div>
-                  <span class="day">15</span>
-               </div>
-            </div> 
+                  <span class="glyphicon glyphicon-print" aria-hidden="true"></span>
+                   &nbsp; Fax: 080 - 25730551
+                  <br>
+
+                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                  &nbsp; engprincipal@theoxford.edu
+                  <br>
+            </p>
          </div>
       </div>
-      <div class="legality">
-          <!-- © Copyright 2015 - 2014 Your Company -->
-          Copyright © 2015 The Oxford College of Engineering<br>
-          Developed and Maintained by Department of ISE
+      <div class="container" id="social-media">
+         <div class="col-md-10">
+            <span>&copy; The Oxford College of Engineering<br>Maintained and Developed by Dept. of ISE</span>
+         </div>
+         <div class="col-md-2">
+            <a id = "facebook" href="#"><i class="icon-2x icon-facebook-sign"></i></a>
+            <a id = "twitter"  href="#"><i class="icon-2x icon-twitter"></i></a>
+            <a id = "youtube" href="#"><i class="icon-2x icon-youtube-sign"></i></a>
+            <a id = "googleplus" href="#"><i class="icon-2x icon-googleplus-sign"></i></a>
+            <a id = "instagram" href="#"><i class="icon-2x icon-instagram-sign"></i></a>
+         </div>         
       </div>
    </div>
 </body>
